@@ -1,0 +1,49 @@
+.signout {
+    background-color: rgb(39, 35, 35);
+    margin: 10px;
+     display: block;
+    /* padding: 13px 30px; */
+    text-align: center;
+    border-bottom: 1px solid;
+    font-size: 16px;
+    position: relative;
+}
+
+.user-selection {
+    background-color: rgb(60, 62, 62);
+    margin-bottom: 0px;
+    
+    font-weight: 400;
+    color: aliceblue;
+    margin-bottom: 0px;
+    display: block;
+   padding-bottom: 4px;
+   /* border-bottom: 1px solid; */
+   font-size: 16px;
+   position: relative;
+}
+
+
+a  { text-decoration:none;
+    cursor: pointer; }
+
+.users-heading {
+    background-color: black;
+    font-weight: 400;
+    color: aliceblue;
+    margin-bottom: 0px;
+    display: block;
+   padding: 13px 30px;
+   /* border-bottom: 1px solid; */
+   font-size: 16px;
+   position: relative;
+}
+
+.user-selection  { cursor: pointer; }
+
+.user-name-scroll {
+    height: 370px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+}

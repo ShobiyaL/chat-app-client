@@ -1,42 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 *{
@@ -49,7 +10,7 @@
 }
 
 body{
-    background: #ffffff;
+    background: #f5f6fa;
 }
 
 .wrapper .sidebar{
@@ -57,7 +18,7 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    width: 20%;
+    width: 225px;
     height: 100%;
     padding: 20px 0;
     transition: all 0.5s ease;
@@ -81,7 +42,7 @@ wrapper .sidebar ul li a:hover,
     display: block;
 }
 
-.control-btns{
+.wrapper .sidebar ul li a{
     display: block;
     padding: 13px 30px;
     border-bottom: 1px solid #10558d;
@@ -94,15 +55,4 @@ wrapper .sidebar ul li a:hover,
     color: #dee4ec;
     width: 30px;
     display: inline-block;
-}
-
-.rightContainer{
-  background: rgb(31, 33, 34);
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 80%;
-  height: 100%;
-  padding: 20px 0;
-  transition: all 0.5s ease;  
 }

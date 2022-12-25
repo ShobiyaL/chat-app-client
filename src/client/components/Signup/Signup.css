@@ -1,0 +1,46 @@
+#signupform {
+    width: fit-content;
+    padding: 30px;
+    background-color: rgb(60, 56, 56);
+    margin: 10px;
+    border-radius: 7px;
+}
+
+.signupbody {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+h2,
+label {
+    color: rgb(185, 192, 192);
+}
+
+/* 
+ */
+input {
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+}
+
+.hidden-success-msg {
+    color: rgb(42, 165, 75);
+}
+
+
+.hidden-fail-msg {
+    color: peachpuff;
+}
+
+
+.control-btns {
+    display: block;
+    padding: 13px 30px;
+    border-bottom: 1px solid #10558d;
+    color: rgb(241, 237, 237);
+    font-size: 16px;
+    position: relative;
+}
